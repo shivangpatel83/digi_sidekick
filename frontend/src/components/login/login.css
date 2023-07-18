@@ -1,0 +1,54 @@
+
+
+.loginSection{
+    background-color: #8d573a;
+    min-height: 100vh;
+    max-height: min-content;
+}
+
+.loginSection h1{
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.loginContainer{
+    height: min-content;
+    width: max-content;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    margin: auto;
+}
+
+.loginContainer div{
+    padding: 20px;
+    text-align: center;
+}
+.loginContainer div input{
+    margin-left: 5px;
+    outline: none;
+    padding-left:5px ;
+}
+
+.loginContainer h2{
+    text-align: center;
+    color: #dedbdb;
+}
+
+.loginBtn button{
+    border: none;
+    padding: 5px 30px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.loginBtn button:hover{
+    background-color: green;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+
